@@ -1,4 +1,5 @@
 import { Request, Response } from 'express';
+
 // Get example data
 export const getExample = (req: Request, res: Response) => {
   res.status(200).json({ message: 'GET request successful' });
